@@ -6,12 +6,17 @@
 
 #include <stdio.h>
 
-int Trocar1 (int num){
+int Negativo (int num){
     int resultado;
     resultado = num * -1;
     return resultado;
 }
 
+float Divisao (int num){
+     float resultado;
+     resultado = (float)1 / (float)num;
+     return resultado;
+}
 
 int main (void){
     
@@ -21,9 +26,11 @@ int main (void){
     scanf("%i", &numero);
 
     int resultado1;
-    resultado1 = Trocar1(numero);
+    float resultado2;
+    resultado1 = Negativo(numero);
+    resultado2 = Divisao(numero)
 
-    printf("Agora os números são %i e 1/%i", resultado1, numero);
+    printf("Agora os números são %i como negativo e 1/%i = %.3f como resultado da divisão", resultado1, numero, resultado2);
 
     return 0;
 
