@@ -36,7 +36,7 @@ int main (void){
         printf("\nNumero %d: ", i + 1);
         scanf("%d", &v[i]);
 
-        if(v[i] < 0){
+        while(v[i] < 0){
             printf("\nInsira um numero positivo.");
             printf("\nNumero %d: ", i);
             scanf("%d", &v[i]);
