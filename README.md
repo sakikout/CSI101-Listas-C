@@ -9,7 +9,7 @@ All exercise lists have a specific theme to exercise. By the time, here they are
 - **Lista 1:** Variables, Constants, Expressions, Atribuitions, Data types, Data input and output;
 - **Lista 2:** Expressions and Condicional Comands;
 - **Lista 3:** Repetition Comands;
-- **Lista 4:** Functions;
+- **Lista 4:** Functions and Procedures;
 - **Lista 5:** Arrays and Strings;
 
 ## Observations:
